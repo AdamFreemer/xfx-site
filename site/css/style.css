@@ -12,12 +12,16 @@ body {
 html{
     overflow-x: hidden;
 }
+.main-page-email-box {
+    margin: 0 auto;
+    margin-top: 20px;
 
-
+    margin-left: 37.5%;
+    width: 25%;
+}
 .blog-top-spacer {
     height: 165px;
 }
-
 #email-link {
     border: 1px #444 solid;
     padding: 1px;
@@ -27,12 +31,10 @@ html{
 .email-div {
     padding-top: 9px;
 }
-
 .form-header {
     text-align: center;
     padding-bottom: 25px;
 }
-
 .form-button {
     margin-left: 25%;
     padding-top: 2px;
@@ -99,7 +101,6 @@ a.active {
     color: #fed136;
 }
 
-
 .xfx-number {
     background-color: rgba(255, 51, 153, 0.0);
     opacity:0.9;
@@ -110,6 +111,12 @@ a.active {
 
 .xfx-logo {
     padding: 0px 10px 0px 10px;
+
+}
+
+.sign-up-blurb {
+    margin-top: 30px;
+    color: red;
 
 }
 
@@ -1458,7 +1465,6 @@ border-color: #E3B106;
 }
 
 .contact-us-style {
-
     margin-top: 40px;
     margin-bottom: 100px;
     margin-left: 25%;
@@ -1467,5 +1473,38 @@ border-color: #E3B106;
 }
 
 .footer-nav-contact {
+}
 
+.index-button {
+    margin-top: 5px;
+    margin-right: 24.5%;
+    padding-top: 6px;
+    opacity: 0.7;
+    font-size: 12px;
+    height: 20px;
+    width: 15%;
+}
+
+    ul {
+        list-style:none;
+    }
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+.help-block {
+    margin-left: -30px;
 }
